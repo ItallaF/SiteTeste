@@ -1,0 +1,88 @@
+# SiteTeste
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<meta charset="uft-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/teste.css">
+	<link rel="stylesheet" type="text/css" href="css/Normalize.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@700&family=Roboto+Slab:wght@500&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+	<title> Pagina Pessoal</title>
+	<script src="js/brootrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+     <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+          <button class="navbar-toggler btn-secondary"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent">
+          Menu 
+          </button>
+			  <div class="collapse navbar-collapse"
+			  id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+          <li> <a href="Contatos.html"
+				  class="nav-link"> Voltar </a> </li>
+        <li> <a href="index.html"
+				  class="nav-link"> Pagina Inicial </a> </li>
+				<li> <a href="Sobre.html" class="nav-link">
+				  Sobre </a> </li>
+				  <li> <a href="Experiencias.html"
+				  class="nav-link"> Experiências </a> </li>
+			  </ul>
+			  </div>
+			</div>
+		  </nav>
+        <form action="arquivo.ext" method="POST">
+            <table> <tr>
+            <td id="titulo">Dgite aqui o que deseja</td></tr>
+            <tr>
+            <td id="corpo">Nome: <input type="TEXT" name="Nome" size="50"></td></tr>
+            <tr><td id="corpo">E-mail: <input type="TEXT" name="email" size="50"></td></tr>
+            <tr><td id="corpo">Cidade: <input type="TEXT" name="cidade" size="50"></td></tr>
+            <tr><td id="corpo">Estado:
+            <Select name="tipo">
+                <option>Selecione</option>
+                <option value="1">Acre-AC</option>
+                <option value="2">Alagoas-AL</option>
+                <option value="3">Amapá-AP</option>
+                <option value="4">Amazonas-AM</option>
+                <option value="5">Bahia-BA</option>
+                <option value="6">Ceará-CE</option>
+                <option value="7">Distrito Federal-DF</option>
+                <option value="8">Espírito Santo-ES</option>
+                <option value="9">Goiás-GO</option>
+                <option value="10">Maranhão-MA</option>
+                <option value="11">Mato Grosso-MT</option>
+                <option value="12">Mato Grosso do Sul-MS</option>
+                <option value="13">Minas Gerais-MG</option>
+                <option value="14">Pará-PA</option>
+                <option value="15">Paraíba-PB</option>
+                <option value="16">Paraná-PR</option>
+                <option value="17">Pernambuco-PE</option>
+                <option value="18">Piauí-PI</option>
+                <option value="19">Roraima-RR</option>
+                <option value="20">Rondônia-RO</option>
+                <option value="21">Rio de Janeiro-RJ</option>
+                <option value="22">Rio Grande do Norte-RN</option>
+                <option value="23">Rio Grande do Sul-RS</option>
+                <option value="24">Santa Catarina-SC</option>
+                <option value="25">São Paulo-SP</option>
+                <option value="26">Sergipe-SE</option>
+                <option value="27">Tocantins-TO</option>
+            </Select></td></tr>
+            <tr><td id="corpo"><textarea name="area" cols="50" rows="10"></textarea></td></tr>
+            <tr><td><input type="submit" name="enviar" class="btn btn-dark" value="Enviar ">
+                <input type="reset" name="concelar" class="btn btn-dark" value="Limpar"></td></tr>
+        </table>
+    </form>
+    <footer>
+		<p>By: Italla Felyne</p>
+	</footer>
+</body>
+</html>
