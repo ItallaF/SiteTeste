@@ -1,0 +1,222 @@
+# SiteTeste
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+    color: #828282;  
+}
+h2,h3{
+    font-family: 'Open Sans', sans-serif;
+}
+#curso{
+    color: white;
+    font-size: 20px;
+}
+header{
+    display: fex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/2820.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    color: #f5fffa;
+}
+header p{
+    margin-bottom: 2em;
+}
+#Voltar{
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+#Voltar .botaoVoltar{
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: .9em;
+    border-radius: 3px;
+    background-color: thistle;
+    color: white;
+}
+#Sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #b98cb9;
+    color: white;
+}
+#Sobre h2{
+    color: white;
+}
+#Sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#Sobre .botao{
+    background-color: thistle;
+    color: white;
+}
+#Pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b98cb9;
+}
+#Sobrepagina{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    background-color: white;
+    color: #000;
+}
+#Sobrepagina h2{
+    color: #b98cb9;
+}
+#Sobrepagina p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#Sobrepagina .botao{
+    background-color: thistle;
+    color: white;
+}
+#Experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+#Experiencias figure {
+    text-align: center;
+}
+#Experiencias figure img{
+    width: 500px;
+}
+#Contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 133px;
+}
+#Contatos h2{
+    color: #000;
+}
+#Contatos div img{
+    width: 30px;
+}
+footer{
+    text-align: center;
+    padding: 35px;
+    background-color: #b98cb9;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: #b98cb9;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #b98cb9;
+    color: white;
+}
+#Formulario{
+    background-color: #b98cb9;
+}
+#titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+#corpo{
+    font-family: 'Work Sans', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+@media (min-width: 768px){
+    nav{
+        flex-direction: none;
+        justify-content: space-around;
+    }
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    #Pagina{
+        flex-direction: none;
+        justify-content: space-around;
+    }
+    #Pagina ul{
+        flex-direction: row;
+        width: 70%;
+    }
+}
+#Sobre{
+    height: 250px;
+    height: 30vh;
+    justify-content: center;
+    min-width: 250px;
+}
+#Sobrepagina{
+    height: 250px;
+    height: 30vh;
+    justify-content: center;
+    min-width: 250px;
+}
+#Sobrepagina h2{
+    text-align: center;
+    width: 100%;
+}
+#Experiencias{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#Experiencias figure{
+    text-align: center;
+    width: 100%;
+}
+#Experiencias h2{
+    text-align: center;
+    width: 100%;
+}
+#Experiencias #lattes{
+    text-align: center;
+    width: 100%;
+}
+#Experiencias h4{
+    text-align: center;
+    width: 100%;
+}
+#Contatos{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 0 auto;
+}
+#Contatos h2, #Contatos p{
+    width: 100%;
+}
